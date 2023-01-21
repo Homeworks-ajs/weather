@@ -1,0 +1,23 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "tomuraCreator <vladislavutkin92@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^18.11.18",
+    "@types/yargs": "^17.0.20",
+    "dotenv": "^16.0.3",
+    "ts-node": "^10.9.1",
+    "yargs": "^17.6.2"
+  },
+  "bin": "weather",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
